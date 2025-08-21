@@ -1,0 +1,21 @@
+{
+  "name": "pwn-fe-web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 4000",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 4000",
+    "lint": "echo skip"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.4.5"
+  }
+}

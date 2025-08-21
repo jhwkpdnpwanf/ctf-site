@@ -1,0 +1,10 @@
+challenges:
+  - slug: hello-pty
+    title: Hello PTY
+    image: pwn/hello-pty:latest
+    mode: pty
+  - slug: echo-tcp
+    title: Echo TCP
+    image: pwn/echo-tcp:latest
+    mode: tcp
+    port: 31337

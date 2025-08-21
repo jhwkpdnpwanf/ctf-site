@@ -1,0 +1,1 @@
+export type Challenge = { id: number; slug: string; title: string; mode: string }
